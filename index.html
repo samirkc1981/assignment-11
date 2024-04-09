@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Streaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anime Streaming</h1>
+        <nav>
+          <input type="text" id="search-input" placeholder="Search anime...">
+            <button id="search-button">Search</button>
+
+            <a href="#popular">Popular Anime</a>
+            <a href="#new">New Releases</a>
+            <a href="#genres">Genres</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </header>
+    <main>
+   
+        <section id="popular">
+            <h2>Popular Anime</h2>
+            <ul id="popular-anime-list"></ul>
+        </section>
+        <section id="new">
+            <h2>New Releases</h2>
+            <ul id="new-anime-list"></ul>
+        </section>
+        <section id="genres">
+            <h2>Genres</h2>
+            <ul>
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>Comedy</li>
+                <li>Drama</li>
+                <li>Fantasy</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our anime streaming website! We aim to provide a wide range of anime titles for you to enjoy. Stay tuned for updates and new releases!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime Streaming. All rights reserved.</p>
+    </footer>
+    <img src="images/1.webp" alt="naruto" >
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
